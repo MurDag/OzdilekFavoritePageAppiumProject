@@ -1,0 +1,36 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1107milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1107"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56647"}
+{"logLevel":"info","message":"Listening on port:56647"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation1' and 'StepImplementation.implementation1'"}
+{"logLevel":"debug","message":"Found {} adlı elemente tıkla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation6' and 'StepImplementation.implementation6'"}
+{"logLevel":"debug","message":"Found {} adlı elementin clickable özelliğini kontrol et. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation3' and 'StepImplementation.implementation3'"}
+{"logLevel":"debug","message":"Found {} adlı element içinde {} yazdığını kontrol et. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation2' and 'StepImplementation.implementation2'"}
+{"logLevel":"debug","message":"Found Uygulamanın açıldığı kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation5' and 'StepImplementation.implementation5'"}
+{"logLevel":"debug","message":"Found {} adlı elementin seçildiği kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation4' and 'StepImplementation.implementation4'"}
+{"logLevel":"debug","message":"Found Aşağı kaydır. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} adlı element içinde {} yazdığını kontrol et. : public void implementation3(String element, String text)"}
+{"logLevel":"debug","message":"\t{} adlı elementin clickable özelliğini kontrol et. : public void implementation6(String element)"}
+{"logLevel":"debug","message":"\t{} adlı elementin seçildiği kontrol edilir. : public void implementation5(String element)"}
+{"logLevel":"debug","message":"\tUygulamanın açıldığı kontrol edilir. : public void implementation2() throws InterruptedException"}
+{"logLevel":"debug","message":"\tAşağı kaydır. : public void implementation4() throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} adlı elemente tıkla. : public void implementation1(String element)"}
+<------------------- Test Islemi Basladi ------------------->
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

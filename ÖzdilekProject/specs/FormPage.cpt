@@ -1,0 +1,36 @@
+# Alışverişe başla butonuna tıklanır.
+* "startToShooping" adlı elemente tıkla.
+
+# Alışveriş sayfasının açıldıgı doğrulanır.
+* "checkShoppingPage" adlı elementin clickable özelliğini kontrol et.
+
+# Kategoriler Sayfası Açılır.
+* "categories" adlı elemente tıkla.
+
+# Kategoriler sayfasının açıldığı doğrulanır.
+* "checkCategoriesPage" adlı elementin seçildiği kontrol edilir.
+
+# Menüden ”Kadın” seçeneğine tıklanır.
+* "buttonWomanCategori" adlı elemente tıkla.
+
+# “Pantolon” kategorisi açılır.
+* "buttonPantsCategori" adlı elemente tıkla.
+
+# Sayfanın en aşağısına gelene kadar swipe edilir.
+* Aşağı kaydır.
+
+# Ekranda ki son ürün için favoriye ekleme butonuna tıklanır.
+* "lastPantFavOnList" adlı elemente tıkla.
+
+# Giriş yapma sayfasının açıldığı dogrulanır.
+* "buttonLogin" adlı element içinde "Giriş Yap" yazdığını kontrol et.
+
+# Geri butonuna tıklanır Kategoriler sayfasının tekrar açıldıgı kontrol edilir.
+* "buttonBack" adlı elemente tıkla.
+* "checkCategoriesPage" adlı elementin seçildiği kontrol edilir.
+
+# Hesabım butonuna tıklanır.
+* "buttonMyAccount" adlı elemente tıkla.
+
+# Sepetim butonuna tıklanır.
+* "buttonMyBasket" adlı elemente tıkla.

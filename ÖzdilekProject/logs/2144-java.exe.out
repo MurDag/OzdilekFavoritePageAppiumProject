@@ -1,0 +1,87 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 808milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 808"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64677"}
+{"logLevel":"info","message":"Listening on port:64677"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation1' and 'StepImplementation.implementation1'"}
+{"logLevel":"debug","message":"Found {} adlı elemente tıkla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation6' and 'StepImplementation.implementation6'"}
+{"logLevel":"debug","message":"Found {} adlı elementin clickable özelliğini kontrol et. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation3' and 'StepImplementation.implementation3'"}
+{"logLevel":"debug","message":"Found {} adlı element içinde {} yazdığını kontrol et. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation2' and 'StepImplementation.implementation2'"}
+{"logLevel":"debug","message":"Found Uygulamanın açıldığı kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation5' and 'StepImplementation.implementation5'"}
+{"logLevel":"debug","message":"Found {} adlı elementin seçildiği kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation4' and 'StepImplementation.implementation4'"}
+{"logLevel":"debug","message":"Found Aşağı kaydır. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} adlı element içinde {} yazdığını kontrol et. : public void implementation3(String element, String text)"}
+{"logLevel":"debug","message":"\t{} adlı elementin clickable özelliğini kontrol et. : public void implementation6(String element)"}
+{"logLevel":"debug","message":"\t{} adlı elementin seçildiği kontrol edilir. : public void implementation5(String element)"}
+{"logLevel":"debug","message":"\tUygulamanın açıldığı kontrol edilir. : public void implementation2() throws InterruptedException"}
+{"logLevel":"debug","message":"\tAşağı kaydır. : public void implementation4() throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} adlı elemente tıkla. : public void implementation1(String element)"}
+<------------------- Test Islemi Basladi ------------------->
+Tem 26, 2021 2:51:03 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Uygulamanın açıldığı kontrol edilir.' using 'class StepImplementation.implementation2"}
+Tem 26, 2021 2:51:07 AM PageObjectModel.FormPage checkOpenApp
+INFO: Uygulama Başarılı bir şekilde açıldı.
+{"logLevel":"debug","message":"Executing '{} adlı elemente tıkla.' using 'class StepImplementation.implementation1"}
+Tem 26, 2021 2:51:07 AM PageObjectModel.AbstractClass click
+INFO: By.id: tv_startShoppingStore adlı elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} adlı elementin clickable özelliğini kontrol et.' using 'class StepImplementation.implementation6"}
+Tem 26, 2021 2:51:09 AM PageObjectModel.AbstractClass isClickable
+INFO: Elementin clickable özelliği false'tur.
+{"logLevel":"debug","message":"Executing '{} adlı elemente tıkla.' using 'class StepImplementation.implementation1"}
+Tem 26, 2021 2:51:09 AM PageObjectModel.AbstractClass click
+INFO: By.id: nav_categories adlı elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} adlı elementin seçildiği kontrol edilir.' using 'class StepImplementation.implementation5"}
+Tem 26, 2021 2:51:11 AM PageObjectModel.AbstractClass isSelected
+INFO: Elementin selected özelliği true'dur.
+{"logLevel":"debug","message":"Executing '{} adlı elemente tıkla.' using 'class StepImplementation.implementation1"}
+Tem 26, 2021 2:51:11 AM PageObjectModel.AbstractClass click
+INFO: By.xpath: //android.widget.TextView[@text="Kadın"] adlı elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} adlı elemente tıkla.' using 'class StepImplementation.implementation1"}
+Tem 26, 2021 2:51:12 AM PageObjectModel.AbstractClass click
+INFO: By.xpath: //android.widget.TextView[@text="Pantolon"] adlı elemente tıklandı.
+{"logLevel":"debug","message":"Executing 'Aşağı kaydır.' using 'class StepImplementation.implementation4"}
+Tem 26, 2021 2:51:36 AM PageObjectModel.AbstractClass swipeWithLastElement
+INFO: En aşağıya kadar Swipe işlemi tamamlandı.
+{"logLevel":"debug","message":"Executing '{} adlı elemente tıkla.' using 'class StepImplementation.implementation1"}
+Tem 26, 2021 2:51:37 AM PageObjectModel.AbstractClass click
+INFO: By.xpath: (//android.widget.FrameLayout/android.view.ViewGroup/android.widget.ImageView[@resource-id="com.ozdilek.ozdilekteyim:id/ivFavorite"])[last()] adlı elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} adlı element içinde {} yazdığını kontrol et.' using 'class StepImplementation.implementation3"}
+{"logLevel":"debug","message":"Executing '{} adlı elemente tıkla.' using 'class StepImplementation.implementation1"}
+Tem 26, 2021 2:51:37 AM PageObjectModel.AbstractClass click
+INFO: By.id: ivBack adlı elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} adlı elementin seçildiği kontrol edilir.' using 'class StepImplementation.implementation5"}
+Tem 26, 2021 2:51:38 AM PageObjectModel.AbstractClass isSelected
+INFO: Elementin selected özelliği true'dur.
+{"logLevel":"debug","message":"Executing '{} adlı elemente tıkla.' using 'class StepImplementation.implementation1"}
+Tem 26, 2021 2:51:38 AM PageObjectModel.AbstractClass click
+INFO: By.id: nav_account adlı elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} adlı element içinde {} yazdığını kontrol et.' using 'class StepImplementation.implementation3"}
+{"logLevel":"debug","message":"Executing '{} adlı elemente tıkla.' using 'class StepImplementation.implementation1"}
+Tem 26, 2021 2:51:39 AM PageObjectModel.AbstractClass click
+INFO: By.id: ivBack adlı elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} adlı elementin seçildiği kontrol edilir.' using 'class StepImplementation.implementation5"}
+Tem 26, 2021 2:51:40 AM PageObjectModel.AbstractClass isSelected
+INFO: Elementin selected özelliği true'dur.
+{"logLevel":"debug","message":"Executing '{} adlı elemente tıkla.' using 'class StepImplementation.implementation1"}
+Tem 26, 2021 2:51:40 AM PageObjectModel.AbstractClass click
+INFO: By.id: nav_cart adlı elemente tıklandı.
+{"logLevel":"debug","message":"Executing '{} adlı element içinde {} yazdığını kontrol et.' using 'class StepImplementation.implementation3"}
+<------------------- Test Islemi Basarili Sekilde Sonlandi ------------------->
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
